@@ -12,6 +12,10 @@
 		6D2F074C206C2E2200A1B092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2F074A206C2E2200A1B092 /* Main.storyboard */; };
 		6D2F074E206C2E2200A1B092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2F074D206C2E2200A1B092 /* Assets.xcassets */; };
 		6D2F0751206C2E2200A1B092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2F074F206C2E2200A1B092 /* LaunchScreen.storyboard */; };
+		6DA6A1BF206DC3470061A0FB /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6A1BE206DC3470061A0FB /* QuizViewController.swift */; };
+		6DA6A1C1206DC3660061A0FB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6A1C0206DC3660061A0FB /* ResultViewController.swift */; };
+		6DA6A1C3206DC5140061A0FB /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6A1C2206DC5140061A0FB /* Quiz.swift */; };
+		6DA6A1C5206DC53C0061A0FB /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6A1C4206DC53C0061A0FB /* QuizManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		6D2F074D206C2E2200A1B092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D2F0750206C2E2200A1B092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D2F0752206C2E2200A1B092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA6A1BE206DC3470061A0FB /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		6DA6A1C0206DC3660061A0FB /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		6DA6A1C2206DC5140061A0FB /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		6DA6A1C4206DC53C0061A0FB /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				6D2F0746206C2E2200A1B092 /* AppDelegate.swift */,
 				6D2F0748206C2E2200A1B092 /* ViewController.swift */,
 				6D2F074A206C2E2200A1B092 /* Main.storyboard */,
+				6DA6A1BE206DC3470061A0FB /* QuizViewController.swift */,
+				6DA6A1C2206DC5140061A0FB /* Quiz.swift */,
+				6DA6A1C4206DC53C0061A0FB /* QuizManager.swift */,
+				6DA6A1C0206DC3660061A0FB /* ResultViewController.swift */,
 				6D2F074D206C2E2200A1B092 /* Assets.xcassets */,
 				6D2F074F206C2E2200A1B092 /* LaunchScreen.storyboard */,
 				6D2F0752206C2E2200A1B092 /* Info.plist */,
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DA6A1BF206DC3470061A0FB /* QuizViewController.swift in Sources */,
+				6DA6A1C3206DC5140061A0FB /* Quiz.swift in Sources */,
 				6D2F0749206C2E2200A1B092 /* ViewController.swift in Sources */,
 				6D2F0747206C2E2200A1B092 /* AppDelegate.swift in Sources */,
+				6DA6A1C5206DC53C0061A0FB /* QuizManager.swift in Sources */,
+				6DA6A1C1206DC3660061A0FB /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
